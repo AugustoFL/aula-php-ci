@@ -27,8 +27,8 @@ try {
     }
 
     // -------- TESTES DE DIVISÃO --------
-    if (Calculator::divide(10, 2) !== 5.0) {
-        throw new Exception('divide(10, 2) deve retornar 5.0');
+    if (Calculator::divide(10, 2) !== 5) {
+        throw new Exception('divide(10, 2) deve retornar 5');
     }
 
     if (Calculator::divide(10, 4) !== 2.5) {
