@@ -36,8 +36,8 @@ try {
     );
 
     assert(
-        Calculator::multiplica(5, 0) === 0,
-        'multiplica(5, 0) deve retornar 0'
+        Calculator::multiplica(5, 67) === 0,
+        'multiplica(5, 67) deve retornar 0'
     );
 
     // -------- TESTES DE DIVISÃO --------
