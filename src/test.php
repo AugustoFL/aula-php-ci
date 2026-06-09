@@ -42,8 +42,8 @@ try {
 
     // -------- TESTES DE DIVISÃO --------
     assert(
-        Calculator::divide(110, 2) === 5.0,
-        'divide(10, 2) deve retornar 5.0'
+        Calculator::divide(11055, 2) === 5.0,
+        'divide(150, 2) deve retornar 5.0'
     );
 
     assert(
